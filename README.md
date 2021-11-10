@@ -41,7 +41,7 @@ Example `participants.json` file:
   "particpants": [
     {
       "name": "Rand al'Thor",
-      "email": "shepherd23@emondsfield.com"
+      "email": "shepherd23@emondsfield.com",
       "cc": [
         "dragon@blacktower.org",
         "dragon@tear.gov",
@@ -60,7 +60,7 @@ Example `participants.json` file:
       ]
     }, {
       "name": "Tam al'Thor",
-      "email": "prodigal@emondsfield.com"
+      "email": "prodigal@emondsfield.com",
       "cc": [ "tam.althor@illian.mil" ]
     }, {
       "name": "Bran al'Vere",
@@ -68,7 +68,7 @@ Example `participants.json` file:
       "cc": [ "bran@winespring.com" ]
     }, {
       "name": "Egwene al'Vere",
-      "email": "amyrlin@tarvalon.gov"
+      "email": "amyrlin@tarvalon.gov",
       "cc": [ "men.are.woolheads@emondsfield.com" ]
     }, {
       "name": "Haral Luhhan",
@@ -81,11 +81,11 @@ Example `participants.json` file:
       "email": "blacksmith.wrangler@emondsfield.com"
     }, {
       "name": "Matrim Cauthon",
-      "email": "gambler@band.mil"
+      "email": "gambler@band.mil",
       "cc": [ "it.wasnt.me@emondsfield.com" ]
     }, {
       "name": "Abell Cauthon",
-      "email": "im.a.flaming.good.father.you.flaming.woolheads@boycottwotshow.com"
+      "email": "im.a.flaming.good.father.you.flaming.woolheads@boycottwotshow.com",
       "cc": [ "archer2@emondsfield.com" ]
     }, {
       "name": "Padan Fain",
@@ -96,23 +96,23 @@ Example `participants.json` file:
       "email": "thatcher@emondsfield.com"
     }, {
       "name": "El'Nynaeve ti al'Meara Mandragoran",
-      "email": "queen@malkier.gov"
+      "email": "queen@malkier.gov",
       "cc": [ "nyneave.almeara@tarvalon.gov", "wisdom@emondsfield.gov", "braidtugger@emondsfield.com" ]
     }, {
       "name": "Al'Lan Mandragoran",
-      "email": "king@malkier.gov"
+      "email": "king@malkier.gov",
       "cc": [ "lan.mandragoran@tarvalon.gov", "lan.mandragoran@shienar.com" ]
     }, {
       "name": "Moiraine Merrilin",
-      "email": "moiraine.damodred@tarvalon.gov"
+      "email": "moiraine.damodred@tarvalon.gov",
       "cc": [ "bluestone@cairhien.com" ]
     }, {
       "name": "Thomdril Merrilin",
-      "email": "thom.merrilin@tarvalon.gov"
+      "email": "thom.merrilin@tarvalon.gov",
       "cc": [ "thom.merrilin@gleemen.org", "court.bard@andor.gov" ]
     }, {
       "name": "Faile Aybara",
-      "email": "lady@tworivers.gov"
+      "email": "lady@tworivers.gov",
       "cc": [ "faile.aybara@emondsfield.com", "zarene.bashere@saldaea.com", "mandarb@hornhunter.org" ]
     }
   ]
