@@ -1,4 +1,3 @@
 __pycache__
 log
-cfg.json
-participants.json
+*.json
