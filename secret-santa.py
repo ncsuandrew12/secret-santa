@@ -109,13 +109,19 @@ def sendNotifications():
         wishlistNum += 1
       wishlistStrHtml += "</ol>"
 
+    recipients = [ participant.email ]
+
     msg = MIMEMultipart('alternative')
     msg['To'] = participant.email
     msg['From'] = senderEmail
     if participant.cc:
-      msg['Cc'] = ",".join(participant.cc)
+      ccs = ",".join(participant.cc)
+      recipients += participant.cc
+      msg['CC'] = ccs
     if participant.bcc:
-      msg['Bcc'] = ",".join(participant.bcc) # FIXME
+      bccs = ",".join(participant.bcc) # FIXME
+      recipients += participant.bcc
+      msg['BCC'] = bccs
     msg['Subject'] = description
 
     msgText = '''{},
@@ -137,8 +143,8 @@ Your {} recipient is: {}.</p>
 
     msg.attach(MIMEText(msgText, 'plain'))
     msg.attach(MIMEText(msgHtml, 'html'))
-    log.info("Sending email to %s (%s)", participant.name, participant.email)
-    smtpSsl.sendmail(senderEmail, participant.email, msg.as_string(), mail_options=['SMTPUTF8'])
+    log.info("Sending email to %s (%s)", participant.name, ",".join(recipients))
+    smtpSsl.sendmail(senderEmail, recipients, msg.as_string(), mail_options=['SMTPUTF8'])
 
   participants.sort()
   recipientList = ""
