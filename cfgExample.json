@@ -1,0 +1,8 @@
+{
+  "description": "Emond's Field Secret Santa",
+  "ownerEmail": "mayor+secretsanta@emondsfield.gov",
+  "senderEmail": "bela+secret-santa@gmail.com",
+  "senderPassword": "",
+  "mailServerUrl": "smtp.gmail.com",
+  "mailServerPort": 465
+}

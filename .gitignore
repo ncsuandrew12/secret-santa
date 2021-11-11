@@ -1,3 +1,8 @@
 __pycache__
 log
-*.json
+# cfg.json
+cfgReal.json
+# participants.json
+participantsReal.json
+participantsTest.json
+
